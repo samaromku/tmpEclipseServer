@@ -1,0 +1,354 @@
+@CHARSET "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+#floating_alert {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left:20px;
+    z-index: 5000;
+}
+
+.task_table {
+	min-width: 100%;
+	text-align:center;
+	font-size:15px;
+	border: 1px solid #000;	
+    border-collapse: collapse;
+}
+
+.tasks_count {
+    float: right;
+    margin: 20px;
+}
+
+.select-control {
+	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contacts_modal{
+	width: 400px;
+    height: auto;
+    background: #fff;
+    margin-left: 450px;
+    margin-top: -15px;
+    padding: 10px;
+}
+
+#org_name {
+	float:right;
+}
+
+button.close {
+	margin: 2px 5px 0 0;
+}
+
+.task_table td, th {
+	vertical-align: middle;
+	text-align:center !important;
+}
+
+.inForm {
+	width:250px;
+}
+.modal-dialog {
+	width:400px !important;
+}
+
+.comment_table {
+	font-size:15px;
+    border-collapse: collapse;
+    min-width: 100%;
+}
+
+.task_body{
+	width:100%;
+}
+
+#select_user {
+	display:none;	
+}
+
+#select_user select {
+	width:auto !important;
+    float: left;
+    margin: 260px 0px 0px -145px;
+    position: absolute;
+}
+
+.comment_table td, th {
+	vertical-align:middle;
+}
+
+.comment_table tr {
+	border-bottom:1px solid #b7b2b2;
+}
+
+
+th {
+	font-weight:bold;
+}
+
+.modal_btns {
+	margin-left: -65px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 50px;
+    display: block;
+    float: left;
+}
+
+.delete_btn span {
+	margin-top:65px;
+}
+
+#make_done_task span {
+	margin-top:130px;
+}
+
+#edit_address span{
+	margin-top:130px;
+}
+
+#change_user span {
+	margin-top:195px;
+}
+
+#remove_address span{
+	margin-top:195px;
+}
+
+.task_table th:hover {
+	cursor: pointer;
+}
+.editForm{
+	width:400px;
+	height:500px;
+}
+
+.editForm p input {
+	float:right;
+}
+
+.editForm p select {
+	float:right;
+}
+
+.users-table {
+	min-width:100%;
+}
+
+.oneTask {
+	min-height: 215px;
+	width:400px;
+    height: auto;
+    float: left;
+}
+
+#contacts {
+	padding-left:30px;
+	margin-left: 400px;
+    width: 400px;
+}
+
+.one_contact {
+	padding: 10px;
+    border: 1px solid #c1bbbb;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.one_contact:hover {
+	background:#efefef;
+	border-radius:15px;
+}
+
+.oneTask span {
+	float:right;
+}
+
+.left_fixed_menu {
+	position: fixed;
+    list-style-type: none;
+    display: block;
+    width: 200px;
+    height: 100%;
+    background: #47650e;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.left_fixed_menu li{
+	margin-left:20px;
+}
+
+.left_fixed_menu li a {
+	color:#fff;
+	text-decoration:none;
+}
+
+.content {
+	margin-left: 210px;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+#map {
+	width: 800px; 
+	height: 500px;
+}
+
+/*.Аварийная {
+	background: #f00;
+	color: #fff;
+}
+
+.Аварийная a {
+	color: #fff;
+}
+
+.Аварийная a:hover {
+	color: #fff;
+}
+
+.Информационная {
+	background: #1200ff;
+	color: #fff;
+}*/
+
+.clear {
+	clear:both;
+}
+
+.not_big {
+	    width: 450px !important;
+}
+
+.task_btn {
+    background: transparent;
+    border: none;
+}
+
+.sort_task {
+	float:right;
+}
+
+.Информационная a {
+	color: #fff;
+}
+
+.Информационная a:hover {
+	color: #fff;
+}
+
+.map_btn {
+    font-size: 20px;
+    float:right;
+}
+
+.edit_map_btn {
+	margin-top: -26px;
+}
+
+.done_map_btn {
+    margin-top: 0px !important;
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 30px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
